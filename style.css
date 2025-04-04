@@ -1,0 +1,61 @@
+
+/* Reduce navbar height */
+.navbar {
+    padding: 5px 10px; /* Adjust top-bottom and left-right padding */
+    min-height: 50px; /* Reduce minimum height */
+}
+
+/* Reduce brand logo size */
+.navbar-brand img {
+    height: 30px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Reduce font size of navbar links */
+.navbar-nav .nav-link {
+    font-size: 14px; /* Smaller font size */
+    padding: 5px 10px; /* Adjust spacing */
+}
+
+/* Adjust toggler button size */
+.navbar-toggler {
+    padding: 4px 6px; /* Smaller padding */
+    font-size: 14px; /* Adjust icon size */
+}
+
+
+/* General carousel styling */
+#heroCarousel {
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.hero-carousel {
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the container */
+    max-height: 500px; /* Adjust the max height as needed */
+}
+
+/* Carousel controls styling */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust width of navigation buttons */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    border-radius: 50%; /* Make controls circular */
+    padding: 10px;
+}
+
+/* Hover effect for navigation controls */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-carousel {
+        max-height: 300px; /* Reduce height on smaller screens */
+    }
+}
